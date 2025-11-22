@@ -54,5 +54,6 @@ export const config = {
     "/api/login",
     "/api/logout",
     "/api/refresh-token",
+    // Note: /api/oauth/callback is excluded from auth middleware via the api exclusion above
   ],
 }
